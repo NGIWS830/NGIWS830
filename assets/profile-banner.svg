@@ -1,0 +1,57 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="60" y1="20" x2="1140" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071426"/>
+      <stop offset="0.52" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#064663"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="250" y1="70" x2="940" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(880 120) rotate(148) scale(410 230)">
+      <stop stop-color="#0EA5E9" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <clipPath id="rounded">
+      <rect width="1200" height="320" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <g opacity="0.13" stroke="#BAE6FD">
+      <path d="M0 54H1200M0 108H1200M0 162H1200M0 216H1200M0 270H1200"/>
+      <path d="M92 0V320M192 0V320M292 0V320M392 0V320M492 0V320M592 0V320M692 0V320M792 0V320M892 0V320M992 0V320M1092 0V320"/>
+    </g>
+
+    <g opacity="0.62">
+      <path d="M780 255L842 181L899 218L957 121L1020 168L1089 78L1200 161V320H736L780 255Z" fill="#082F49"/>
+      <path d="M736 278L804 226L850 252L920 179L976 215L1044 141L1124 208L1200 179V320H700L736 278Z" fill="#0C4A6E"/>
+      <path d="M780 255L842 181L899 218L957 121L1020 168L1089 78" stroke="url(#accent)" stroke-width="2"/>
+    </g>
+
+    <g fill="#67E8F9">
+      <circle cx="842" cy="181" r="4"/>
+      <circle cx="957" cy="121" r="4"/>
+      <circle cx="1089" cy="78" r="4"/>
+      <circle cx="1089" cy="78" r="10" opacity="0.25" filter="url(#softGlow)"/>
+    </g>
+
+    <g transform="translate(76 72)">
+      <rect width="6" height="150" rx="3" fill="url(#accent)"/>
+      <text x="34" y="56" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="1">JUN YANG</text>
+      <text x="36" y="101" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing="3">AI RESEARCHER · OPEN-SOURCE BUILDER</text>
+      <text x="36" y="148" fill="#94A3B8" font-family="Microsoft YaHei, PingFang SC, Segoe UI, sans-serif" font-size="18" letter-spacing="5">关山难越 · 步履不停</text>
+    </g>
+
+    <circle cx="1120" cy="54" r="3" fill="#BAE6FD" opacity="0.7"/>
+    <circle cx="1150" cy="93" r="2" fill="#BAE6FD" opacity="0.5"/>
+    <circle cx="1037" cy="54" r="2" fill="#BAE6FD" opacity="0.45"/>
+  </g>
+</svg>
