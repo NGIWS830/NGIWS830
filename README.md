@@ -1,69 +1,72 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Jun Yang — AI researcher and open-source builder" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/academic-banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/academic-banner-light.svg" />
+    <img src="./assets/academic-banner-light.svg" width="100%" alt="Jun Yang — Academic Research Profile" />
+  </picture>
 
-  <br />
+  <p><strong>Artificial Intelligence · Computer Vision · Scientific AI</strong></p>
 
-  <a href="https://github.com/NGIWS830">
-    <img src="https://img.shields.io/badge/GitHub-NGIWS830-181717?style=flat-square&logo=github" alt="GitHub" />
-  </a>
-  <a href="https://www.cnblogs.com/yj179101536/">
-    <img src="https://img.shields.io/badge/Blog-博客园-2F80ED?style=flat-square&logo=rss&logoColor=white" alt="Blog" />
-  </a>
-  <a href="mailto:junyang830@foxmail.com">
-    <img src="https://img.shields.io/badge/Email-Let's%20talk-0EA5E9?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=NGIWS830&style=flat-square&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile views" />
+  <p>
+    <a href="mailto:junyang830@foxmail.com">Email</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.cnblogs.com/yj179101536/">Blog</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/NGIWS830?tab=repositories">Repositories</a>
+  </p>
 </div>
 
-## Hi, I'm Jun 👋
+---
 
-I'm an **Artificial Intelligence student at Jiangsu University**, currently based in Nanjing, China.
+## Research Profile
 
-I enjoy turning research ideas into reproducible code—especially in **computer vision**, **deep learning**, and **AI-assisted scientific workflows**. My recent work explores efficient UAV object detection and tools that make academic research more systematic.
+I am an Artificial Intelligence student at the **School of Computer Science and Communication Engineering, Jiangsu University**, based in Nanjing, China. My work focuses on building efficient and reproducible learning systems at the intersection of computer vision and scientific research automation.
 
-- 🔭 Building efficient vision models for challenging real-world scenes
-- 🧠 Interested in Transformers, object detection, and research agents
-- 🧪 Turning experiments into clear, reproducible research artifacts
-- 💬 中文 / English
+I am particularly interested in how architectural inductive bias and feature representation can improve visual recognition under constrained conditions, and how AI agents can support rigorous, traceable scientific workflows.
 
-## Research & Projects
+## Research Interests
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🔬 AI-SCI-SKILLs</h3>
-      <p align="center"><strong>An end-to-end AI workflow for SCI paper writing</strong></p>
-      <p>A Chinese-first research pipeline that helps transform source material, code, experiments, and notes into structured scientific manuscripts.</p>
-      <p align="center">
-        <a href="https://github.com/NGIWS830/AI-SCI-SKILLs"><strong>Explore the project →</strong></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🚁 ITNet</h3>
-      <p align="center"><strong>Inductive Transformer Network for UAV detection</strong></p>
-      <p>An efficient vision architecture designed for small-object detection in aerial imagery, combining feature diffusion with inductive bias.</p>
-      <p align="center">
-        <a href="https://github.com/NGIWS830/ITNet"><strong>Explore the project →</strong></a>
-      </p>
-    </td>
-  </tr>
-</table>
+| Area | Current focus |
+|:---|:---|
+| **Computer Vision** | Small-object detection, aerial imagery, visual representation learning |
+| **Efficient Deep Learning** | Lightweight architectures, feature diffusion, real-time inference |
+| **Transformer Models** | Inductive bias, multi-scale modeling, efficient attention |
+| **Scientific AI** | Research agents, reproducible workflows, AI-assisted academic writing |
 
-## Toolbox
+## Selected Research
+
+### [1] ITNet: Inductive Transformer Network with Diffusion of Feature for UAV Small Object Detection
+
+**Research project** · Computer Vision · PyTorch
+
+An efficient detection architecture for small objects in UAV imagery. ITNet combines a multi-scale backbone, feature-diffusion pyramid, and inductive Transformer design to preserve fine-grained information while maintaining practical inference efficiency.
+
+[`Project repository`](https://github.com/NGIWS830/ITNet) &nbsp;·&nbsp; `VisDrone2019` &nbsp;·&nbsp; `HIT-UAV`
+
+## Research Software
+
+### [S1] AI-SCI-SKILLs — An End-to-End Scientific Writing Pipeline
+
+**Open-source research software** · AI Agents · Reproducible Research
+
+A Chinese-first workflow that organizes source materials, code, experimental results, literature, and research notes into a structured pipeline for scientific manuscript development.
+
+[`Project repository`](https://github.com/NGIWS830/AI-SCI-SKILLs) &nbsp;·&nbsp; `MIT License` &nbsp;·&nbsp; `v0.4.0`
+
+## Methods & Tools
+
+`Python` &nbsp; `PyTorch` &nbsp; `CUDA` &nbsp; `OpenCV` &nbsp; `Transformer Architectures` &nbsp; `Object Detection` &nbsp; `Research Agents`
+
+## Contact
+
+For research discussion, reproducibility questions, or potential collaboration:
+
+- **Email:** [junyang830@foxmail.com](mailto:junyang830@foxmail.com)
+- **Affiliation:** Jiangsu University, Nanjing, China
+- **Writing:** [博客园 / CNBlogs](https://www.cnblogs.com/yj179101536/)
+
+---
 
 <div align="center">
-
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=FACC15)
-![PyTorch](https://img.shields.io/badge/PyTorch-111827?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
-![OpenCV](https://img.shields.io/badge/OpenCV-111827?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
-![CUDA](https://img.shields.io/badge/CUDA-111827?style=for-the-badge&logo=nvidia&logoColor=76B900)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
-![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
-
-</div>
-
-<br />
-
-<div align="center">
-  <sub>关山难越，步履不停。</sub>
+  <em>关山难越，步履不停。</em>
 </div>
